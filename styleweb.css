@@ -1,0 +1,70 @@
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(227, 175, 217);
+  color: #000000;
+  padding: 10px;
+  width: 1500px;
+  text-align: center;
+}
+
+figure {
+  width: 600px;
+  height: 350px;
+}
+th,
+td {
+  padding: 20px;
+}
+tbody td {
+  text-align: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.card_img {
+  height: 300px;
+  border: black 2px solid
+}
+
+.abt {
+  margin-left: 30px;
+}
+.sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  text-align: center;
+  margin: 50px;
+}
+input {
+  margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit_button{
+  margin-top: 10px;
+}
+footer {
+  background-color: rgb(227, 175, 217);
+  color: #000000;
+  padding: 10px;
+  width: 1500px;
+  text-align: center;
+}
