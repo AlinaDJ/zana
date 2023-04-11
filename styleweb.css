@@ -1,70 +1,77 @@
 body {
-  display: grid;
-  place-items: center;
-  margin: 0;
-}
+    font-family: Montserrat;
+    font-size: larger;}
 
 header {
-  background-color: rgb(227, 175, 217);
-  color: #000000;
-  padding: 10px;
-  width: 1500px;
-  text-align: center;
-}
+    background-color: #c4a7e3;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Itim';
+    font-style: normal;
+    font-size: 35px;}
 
-figure {
-  width: 600px;
-  height: 350px;
-}
-th,
-td {
-  padding: 20px;
-}
-tbody td {
-  text-align: center;
-}
-img {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
-}
-
-.card_img {
-  height: 300px;
-  border: black 2px solid
-}
-
-.abt {
-  margin-left: 30px;
-}
-.sum {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 800px;
-  text-align: center;
-  margin: 50px;
-}
-input {
-  margin-bottom: 15px;
-}
-
-form input[type="submit"] {
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.submit_button{
-  margin-top: 10px;
-}
 footer {
-  background-color: rgb(227, 175, 217);
-  color: #000000;
-  padding: 10px;
-  width: 1500px;
-  text-align: center;
+    background-color: #c4a7e3;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Itim';
+    font-style: normal;
+    font-size: 35px;}
+
+.content {
+    display: grid;
+    place-items: center;}
+
+img {
+    height: 350px;
+    width: 250px;
+    border-radius: 100px;}
+
+.abt{
+    margin-left:50px;}
+
+.center {
+    text-align: center;}
+
+.sum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    text-align: center;
+    margin: 50px;}
+
+.table1 {
+    display: flex;
+    justify-content:center;
+    background-color: #e5d8f1;
+    margin-bottom: 30px;}
+
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+     }
+
+ td, th{
+    border: 1px solid;
+    padding: 10px;
+    border-color: #4c1d7e;
+ }
+
+ .table2{
+    margin-bottom: 40px;
+ }
+ 
+ .works {
+   text-align:center ;
+   width: 500px;
+ }
+mark {
+    background-color: #9576b8;
 }
+
+
+
+
